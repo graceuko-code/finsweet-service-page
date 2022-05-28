@@ -53,7 +53,7 @@
 }
 
 .header-section{
-    height: 80vh;
+    height: auto;
     padding-bottom: 2em;
     padding-top: 2em;
 }
@@ -111,7 +111,7 @@
 }
 
 .service-sect{
-    height: 100vh;
+    height: auto;
     background-color: #E8E3E3;
     padding-top: 3em;
     padding-bottom: 2em;
@@ -167,7 +167,7 @@
 }
 
 .work-process{
-    height: 80vh;
+    height: auto;
     padding: 2em 0;
 }
 
@@ -209,7 +209,7 @@
 }
 
 .diag-sect{
-    height: 70vh;
+    height: auto;
     justify-content: space-between;
     padding: 2em 0;
 }
@@ -242,8 +242,7 @@
 
 .contacts{
     background-color: #0F0D0D;
-    height: 40vh;
-    position: relative;
+    height: auto;
 }
 
 .contact-section{
@@ -341,9 +340,13 @@
     }
 
     .main-header {
-        width: 80%;
+        width: 100%;
         justify-content: flex-start;
         align-items: flex-start;
+    }
+
+    .logo img {
+        width: 100%;
     }
     
     .navigation ul {
@@ -354,6 +357,7 @@
     .right-nav ul {
         border-right: none;
         padding-right: 0;
+        font-size: 13px;
     }
 
     .nav-ass{
@@ -361,19 +365,18 @@
     }   
 
     .header-section {
-        height: auto;
         flex-direction: column;
         padding-bottom: 15px;
     }
 
     .header-left {
-        width: 80%;
-        height: auto;
+        width: 100%;
+        height: 200px;
         margin-bottom: 10px;
     }
 
     .header-right {
-        width: 80%;
+        width: 100%;
         height: auto;
         padding: 5px;
     }
@@ -406,7 +409,7 @@
     }
 
     .serve-sect-left {
-        width: 80%;
+        width: 100%;
         padding: 10px;
     }
 
@@ -431,7 +434,7 @@
     }
 
     .serve-sect-right {
-        width: 80%;
+        width: 100%;
     }
 
     .serve-sect-right .item img {
@@ -450,7 +453,7 @@
     }
 
     .work-process-left {
-        width: 80%;
+        width: 100%;
         margin-bottom: 15px;
     }
 
@@ -472,7 +475,7 @@
     }
 
     .work-process-right {
-        width: 80%;
+        width: 100%;
     }
 
     .work-p-img {
@@ -481,23 +484,22 @@
 
     .work-process-right img {
         height: 188px;
-        width: 95%;
+        width: 100%;
         padding-bottom: 10px;
     }
 
     .diag-sect {
-        height:  229vh;
         flex-direction: column;
     }
 
     .diag-sect-left {
-        width: 80%;
+        width: 100%;
         flex-direction: column;
     }
 
     .diag-sect-left img {
-        height: 168px;
-        width: 192px;
+        height: 80%;
+        width: 100%;
         padding-bottom: 10px;
     }
 
@@ -519,7 +521,6 @@
     }
     
     .contacts {
-        height: auto;
         padding-bottom: 13px;
     }
     
@@ -529,7 +530,7 @@
     }
 
     .contact-left .social-media img {
-        width: 22px;
+        width: 100%;
         height: 28px;
         padding: 3px;
     }
@@ -550,6 +551,10 @@
 
     .main-footer {
         padding-top: 16px;
+    }
+
+    .main-footer .logo img {
+        width: 100%;
     }
 
     .footer {
@@ -599,7 +604,7 @@
 
     .header-right {
         width: 60%;
-        height: 273px;
+        height: auto;
     }
 
     .header-right h1 {
@@ -654,8 +659,9 @@
     }
 
     .serve-sect-right .item img {
-        width: 93%;
-        height: 88px;
+        width: 83%;
+        height: 85px;
+        padding: 2px 2px;
     }
 
     .work-process {
